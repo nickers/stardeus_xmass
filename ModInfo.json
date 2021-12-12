@@ -1,0 +1,7 @@
+{
+    "Name" : "XMass tree",
+    "Description" : "XMass tree producing wood",
+    "ModVersion" : "1.0.0",
+    "GameVersion" : "0.5.28",
+    "Dependencies" : [ "core" ]
+}

@@ -1,0 +1,39 @@
+{
+    "Layer" : "FreeEntities",
+    "ParentId" : "Obj/Plants/BasePlant",
+    "Components" : [
+        {
+            "Component" : "ObjGraphics",
+            "Properties" : [
+                { "Key" : "Shader", "String" : "ObjNoFlash" },
+                { "Key" : "Graphic", "String": "Obj/Plants/XTree/XTree" },
+                { "Key" : "Size", "Vector2": { "x" : 2, "y" : 2 } }
+            ]
+        },
+        {   
+            "Component" : "Plant",
+            "Properties" : [
+                { "Key" : "Size", "String" : "Large" },
+                { 
+                    "Key" : "HarvestOutput", 
+                    "RawMaterials" : [
+                        { "TypeId" : "Log", "StackSize" : 1 },
+                        { "TypeId" : "PlantFiber", "StackSize" : 5 }
+                    ]
+                },
+                { "Key" : "GrowthRate", "Float" : 0.1 },
+                { "Key" : "GrowthAfterHarvest", "Float" : 0.05 },
+                { "Key" : "OxygenProductionRate", "Float" : 0.005 },
+                { "Key" : "OxygenOutputRange", "Float" : 5 }
+            ]
+        },
+        { 
+            "Component" : "Flammable",
+            "Properties" : [
+                { "Key" : "IgnitionTemperatureCelsius", "Int" : 150 },
+                { "Key" : "MeltingTemperatureCelsius", "Int" : 500 },
+                { "Key" : "FireChance", "Float" : 0.9 }
+            ]
+        }
+    ]
+}
