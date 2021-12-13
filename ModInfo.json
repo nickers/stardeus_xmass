@@ -1,7 +1,8 @@
 {
+    "Id" : "xtree",
     "Name" : "XMass tree",
     "Description" : "XMass tree producing wood",
-    "ModVersion" : "1.0.0",
-    "GameVersion" : "0.5.28",
+    "ModVersion" : "1.0.1",
+    "GameVersion" : "0.5.182",
     "Dependencies" : [ "core" ]
 }
