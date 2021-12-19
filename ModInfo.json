@@ -1,8 +1,9 @@
 {
     "Id" : "xtree",
     "Name" : "XMass tree",
-    "Description" : "XMass tree producing wood",
-    "ModVersion" : "1.0.1",
+    "Description" : "Plant your XMass tree and watch it growing.",
+    "ModVersion" : "1.0.2",
     "GameVersion" : "0.5.182",
-    "Dependencies" : [ "core" ]
+    "Dependencies" : [ "core" ],
+    "SteamWorkshop" : true
 }
